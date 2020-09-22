@@ -14,5 +14,5 @@ title: Treaty Archive
     {% if skip == true %}
         {% continue %}
     {% endif %}
-[[{{ page.date | date_to_string: "ordinal", "US" }}] {{ page.title }}{% if page.subtitle %} ({{ page.subtitle }}){% endif %}]({{ page.url | relative_url }})
+[[{{ page.date | date: "%b %d, %Y" }}] {{ page.title }}{% if page.subtitle %} ({{ page.subtitle }}){% endif %}]({{ page.url | relative_url }})
 {% endfor %}
