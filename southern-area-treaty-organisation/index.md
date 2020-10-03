@@ -1,6 +1,6 @@
 ---
 layout: pdf
-title: Southern Area Treaty Organisation Charter
+title: Charter for the Southern Area Treaty Organisation
 date: 2018-03-20
 file: charter.pdf
 ---
